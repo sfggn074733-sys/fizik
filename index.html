@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fizik Projem</title>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+h1 {
+  color: white;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 250px;
+  margin: 20px auto;
+  padding: 15px;
+  background: white;
+  color: #333;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background: #ddd;
+}
+
+.button img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+/* FOTOĞRAF ALANI */
+.photos {
+  margin-top: 40px;
+}
+
+.photos img {
+  width: 150px;
+  margin: 10px;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.photos img:hover {
+  transform: scale(1.1);
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+  <h1>Fizik Proje Ahmed</h1>
+
+  <a class="button" href="pdf1.pdf" target="_blank">
+    <img src="doruk.png">
+    📄 Doruk
+  </a>
+
+  <a class="button" href="pdf2.pdf" target="_blank">
+    <img src="denizhan.jpeg">
+    📄 Denizhan
+  </a>
+
+  <!-- ALTTA FOTOĞRAFLAR -->
+  <div class="photos">
+    <img src="foto1.jpg">
+    <img src="foto2.jpg">
+  </div>
+
+</div>
+
+</body>
+</html>
